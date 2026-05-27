@@ -8,7 +8,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`relative inline-flex cursor-pointer select-none focus:outline-none group ${className}`}
+      className={`relative inline-flex cursor-pointer mx-auto select-none focus:outline-none group ${className}`}
       {...props}
     >
       <span

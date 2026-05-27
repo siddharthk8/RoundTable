@@ -87,7 +87,7 @@ function PostPage() {
     <div className="min-h-screen bg-bg text-t-primary px-6 py-12">
       <div className="mx-auto max-w-4xl space-y-6">
         <div className="flex items-center justify-between gap-4">
-          <Button onClick={() => navigate(-1)}>Back</Button>
+          <Button className={"ml-0"} onClick={() => navigate(-1)}>Back</Button>
           <div className="flex items-center gap-3">
             {canEditPost ? (
               <Button onClick={() => navigate(`/posts/${post.id}/edit`)}>
